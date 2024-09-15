@@ -31,7 +31,7 @@ The system follows a three-stage process:
 2. **Letter Prediction** using Random Forest.
 3. **Sentence Formation** using LLM (Gemma-7b-it).
 
-![System Architecture](D:\NITT\Architecture.png)
+![System Architecture](./images/Architecture.png)
 
 ## Results and Evaluation
 The model was evaluated using the following metrics:
@@ -42,7 +42,8 @@ The model was evaluated using the following metrics:
 - **F1-Score**
 
 ### Confusion Matrix:
-![Confusion Matrix](D:\NITT\Confusion_matrix.png)
+![Confusion_matrix](./images/CM_RF.png)
+"D:\NITT\Confusion_matrix.png"
 
 The Random Forest model achieved high accuracy in classifying sign language letters and numbers. The combination of the Random Forest model and LLM provided contextually correct sentences for seamless communication.
 
