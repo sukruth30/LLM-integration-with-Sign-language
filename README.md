@@ -43,9 +43,8 @@ The model was evaluated using the following metrics:
 
 ### Confusion Matrix:
 ![Confusion_matrix](./images/CM_RF.png)
-"D:\NITT\Confusion_matrix.png"
 
-The Random Forest model achieved high accuracy in classifying sign language letters and numbers. The combination of the Random Forest model and LLM provided contextually correct sentences for seamless communication.
+The Random Forest model achieved high accuracy of **99.54%** in classifying sign language letters and numbers. The combination of the Random Forest model and LLM provided contextually correct sentences for seamless communication.
 
 ## Technologies Used
 - **MediaPipe** for hand tracking and feature extraction.
