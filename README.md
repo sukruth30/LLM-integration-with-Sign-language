@@ -1,4 +1,4 @@
-# Sign Language Recognition (SLR) Using Random Forest and LLM
+# LLM Integration with Sign Language Recognition (SLR)
 
 ## Introduction
 Sign Language Recognition (SLR) plays a crucial role in bridging communication gaps between the hearing and deaf or hard-of-hearing communities. According to the World Health Organization, over 466 million people have disabling hearing loss globally, many of whom rely on sign language as their primary mode of communication.
@@ -31,7 +31,7 @@ The system follows a three-stage process:
 2. **Letter Prediction** using Random Forest.
 3. **Sentence Formation** using LLM (Gemma-7b-it).
 
-![System Architecture]("D:\NITT\Architecture.png")
+![System Architecture](D:\NITT\Architecture.png)
 
 ## Results and Evaluation
 The model was evaluated using the following metrics:
@@ -42,7 +42,7 @@ The model was evaluated using the following metrics:
 - **F1-Score**
 
 ### Confusion Matrix:
-![Confusion Matrix]("D:\NITT\Confusion_matrix.png")
+![Confusion Matrix](D:\NITT\Confusion_matrix.png)
 
 The Random Forest model achieved high accuracy in classifying sign language letters and numbers. The combination of the Random Forest model and LLM provided contextually correct sentences for seamless communication.
 
